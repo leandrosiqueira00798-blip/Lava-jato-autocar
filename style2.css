@@ -1,0 +1,76 @@
+/*---Reset de tipografia global ---*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 200px;
+    line-height: 1.6;
+    color:#fafafa;
+    background-color:rgb(9, 116, 187)
+}
+
+/*-- Cabeçalho (cor hexadecimal + padding) ---*/
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+header h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    
+}
+
+header p{
+    font-size: 1.1rem;
+}
+
+/*-- Navegação (flex + espaçamento)---*/
+nav{
+    background-color:rgb(14, 230, 183);
+    padding:15px 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/*--- Navegação / menu no (desktop)---*/
+.menu{
+    background-color: hsla(182, 91%, 41%, 0.884);
+    padding: 15px 20px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px 12px;
+    border: 2px solid transparent
+    
+}
+
+.menu a:hover{
+    border-color: white;
+}
+
+   
